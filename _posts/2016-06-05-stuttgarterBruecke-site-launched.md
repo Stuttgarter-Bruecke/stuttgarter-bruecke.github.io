@@ -5,7 +5,7 @@ date: 2016-06-05
 ---
 
 
-<iframe width="1600" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~AbteilungHolz/49.embed"></iframe>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~AbteilungHolz/49.embed"></iframe>
 
 
 ![fotoVertHaus](../images/foto_vertikale_Verschiebung.JPG "v_vert_Haus")
