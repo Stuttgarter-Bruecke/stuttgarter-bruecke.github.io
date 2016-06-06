@@ -10,11 +10,11 @@ category: Feuchtigkeit
 
 <p style="text-align: left;">
 
-<img src="../images/foto_vertikale_Verschiebung.JPG" alt="v_vert_Haus"><br>
+<img src="../images/u_seitlich.JPG" width="500px" alt="u_sitlich"><br>
 
-Foto eines Wegsensors zur Messung der vertikalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager am integralen Sto&szlig;<br><br>
+Foto ...<br><br>
 
-<img src="../images/foto_horizontale_Verschiebung_unten.JPG" alt="h_hor_unten"><br>
+<img src="../images/u_unten.JPG" width="500px" alt="u_unten"><br>
 
-Foto eines Wegsensors zur Messung der horizontalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager an der Traegerunterseite am integralen Sto&szlig; 
+Foto ...<br><br>
 </p>
