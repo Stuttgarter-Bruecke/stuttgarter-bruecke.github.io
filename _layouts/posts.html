@@ -1,31 +1,22 @@
 ---
 layout: default
 ---
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	    		</ul>
-			</nav>
-      <h1>{{ page.title }}</h1>
-      <p class="meta">{{ page.date | date_to_string }}</p>
-			<div class="post">
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="post">
 
-			{{ content }}
+  {{ content }}
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:gordian.stapf@mpa.uni-stuttgart.de">email</a></li>
-	        		<li><a href="https://github.com/GordianStapf">github.com/GordianStapf</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+</div><!-- /.container -->
+<footer>
+  <ul>
+    <li><a href="mailto:gordian.stapf@mpa.uni-stuttgart.de">email</a></li>
+    <li><a href="https://github.com/GordianStapf">github.com/GordianStapf</a></li>
+  </ul>
+</footer>
