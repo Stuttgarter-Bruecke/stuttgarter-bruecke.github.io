@@ -1,3 +1,5 @@
+---
+---
 /*
  *  Hyphenator 5.2.0(devel) - client side hyphenation for webbrowsers
  *  Copyright (C) 2015  Mathias Nater, Zürich (mathiasnater at gmail dot com)
