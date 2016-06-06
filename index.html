@@ -6,3 +6,12 @@ title: Monitoring der Stuttgarter Brücke
 	<h1>Monitoring der Stuttgarter Brücke</h1>
 	<p>Diese Seite dokumentiert das Monitoring der Stuttgarter Brücke.</em> Alle Grafiken wurden mit plotly erstellt </p>
 </div><!-- /.blurb -->
+
+<div class="blurb">
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+</div><!-- /.blurb -->
