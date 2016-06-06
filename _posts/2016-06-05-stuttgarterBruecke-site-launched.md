@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Verschiebungen am integralen Stoss"
 date: 2016-06-05
 ---
