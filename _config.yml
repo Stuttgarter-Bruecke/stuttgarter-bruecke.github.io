@@ -1,3 +1,5 @@
 name: Monitoring der Stuttgarter Brücke
 markdown: kramdown
 permalink: /blog/:title
+gems:
+ - jekyll-coffeescript

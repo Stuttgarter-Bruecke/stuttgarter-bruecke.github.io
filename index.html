@@ -10,8 +10,27 @@ title: Monitoring der Stuttgarter Brücke
 <div class="blurb">
 	<ul class="posts">
 
+    <!--
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
-	</ul>
+    -->
+    <img src="images/grundriss.svg" width="100%">
+
+    {% for tag in site.categories %} 
+    <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+    <ul class="post-list">
+      {% assign pages_list = tag[1] %}  
+      {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+    </ul>
+    {% endfor %}
+  </ul>
 </div><!-- /.blurb -->
