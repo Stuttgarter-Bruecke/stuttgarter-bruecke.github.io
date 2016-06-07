@@ -64,7 +64,7 @@ nav {
         }
       } // Dropdown list
       ul li {
-        min-width: 190px;
+        min-width: 390px;
         a {
           padding: 15px;
           line-height: 20px;
@@ -79,7 +79,7 @@ nav {
   position: absolute;
   display: none;
   z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Mobile navigation */

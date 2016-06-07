@@ -1,9 +1,9 @@
-{% for tag in site.categories %} 
-  {% assign pages_list = tag[1] %}  
+{% for tag in site.categories %}
+  {% assign pages_list = tag[1] %}
   {% for post in pages_list %}
   {% if post.title != null %}
   {% if group == null or group == post.group %}
-  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+  <li><a href="{{ site.url }}{{ post.url }}">‣ {{ post.title }}</a></li>
   {% endif %}
   {% endif %}
   {% endfor %}
