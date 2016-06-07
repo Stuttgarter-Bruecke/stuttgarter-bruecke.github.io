@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: /blog/:title
 gems:
  - jekyll-coffeescript
+keep_files: [javascripts]
