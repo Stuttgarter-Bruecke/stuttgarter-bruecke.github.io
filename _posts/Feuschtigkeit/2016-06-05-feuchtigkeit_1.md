@@ -2,7 +2,7 @@
 layout: posts
 title: "Holzfeuchte am Logger in Feldmitte"
 date: 2016-06-05
-category: Feuchtigkeit
+category: Holzfeuchte
 ---
 
 

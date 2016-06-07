@@ -2,7 +2,7 @@
 layout: posts
 title: "Holzfeuchte am Logger beim integralen Stoß"
 date: 2016-06-05
-category: Feuchtigkeit
+category: Holzfeuchte
 ---
 <!-- Beispiel um die Grafiken direkt in der Seite zu generieren
 <div id="graph" style="width:90%;height:450px;">

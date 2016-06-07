@@ -6,21 +6,72 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <script src='/javascripts/hyphenate.js' type="text/javascript"></script>
     <script src='/javascripts/plotly-latest.min.js' type="text/javascript" charset="utf-8"></script>
+    <script src='/javascripts/jquery-2.2.4.min.js'></script>
+    <script src='/javascripts/nav-dropdown.js' type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="/css/nav_bar.css">
     <!--
     <script src='/javascripts/MathJax-master/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type="text/javascript"></script>
     -->
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </head>
   <body>
+<section class="navigation">
+  <div class="nav-container">
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/sensoren.html">Sensoren</a></li>
+        <li>
+          <a href="#!">Services</a>
+          <ul class="nav-dropdown">
+          {% include drop-down-menu.html %}
+        <!--
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+        -->
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="http://www.mpa.uni-stuttgart.de" target="_blank"><img src="/images/mpa_logo.png" height="50px" align="right"></a>
+  </div>
+</section>
+  <!--
     <nav>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/sensoren.html">Sensoren</a></li>
+        <li>
+          <a href="#!">Sensoren</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Sensor 1</a>
+            </li>
+            <li>
+              <a href="#!">Sensor 2</a>
+            </li>
+            <li>
+              <a href="#!">Sensor 3</a>
+            </li>
+          </ul>
+        </li>
         <a href="http://www.mpa.uni-stuttgart.de" target="_blank"><img src="/images/mpa_logo.png" height="50px" align="right"></a>
-
       </ul>
     </nav>
+    -->
     <div class="container">
 
       {{ content }}
