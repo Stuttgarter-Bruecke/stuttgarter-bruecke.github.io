@@ -10,68 +10,35 @@
     <script src='/javascripts/nav-dropdown.js' type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="/css/nav_bar.css">
     <!--
-    <script src='/javascripts/MathJax-master/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type="text/javascript"></script>
-    -->
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src='/javascripts/MathJax-master/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type="text/javascript"></script>
+      -->
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </head>
   <body>
-<section class="navigation">
-  <div class="nav-container">
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/sensoren.html">Sensoren</a></li>
-        <li>
-          <a href="#!">Services</a>
-          <ul class="nav-dropdown">
-          {% include drop-down-menu.html %}
-        <!--
+    <section class="navigation">
+      <div class="nav-container">
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+          <ul class="nav-list">
+            <li><a href="/">Home</a></li>
             <li>
-              <a href="#!">Web Design</a>
+              <a href="#!">Sensoren</a>
+              <ul class="nav-dropdown">
+                <li><a href="/sensoren.html">Bilder</a></li>
+                {% include drop-down-menu.html %}
+              </ul>
             </li>
             <li>
-              <a href="#!">Web Development</a>
+              <a href="/about.html">About</a>
             </li>
             <li>
-              <a href="#!">Graphic Design</a>
-            </li>
-        -->
-          </ul>
-        </li>
-        <li>
-          <a href="#!">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
-    <a href="http://www.mpa.uni-stuttgart.de" target="_blank"><img src="/images/mpa_logo.png" height="50px" align="right"></a>
-  </div>
-</section>
-  <!--
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/sensoren.html">Sensoren</a></li>
-        <li>
-          <a href="#!">Sensoren</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="#!">Sensor 1</a>
-            </li>
-            <li>
-              <a href="#!">Sensor 2</a>
-            </li>
-            <li>
-              <a href="#!">Sensor 3</a>
+              <a href="kontakt.html">Kontakt</a>
             </li>
           </ul>
-        </li>
+        </nav>
         <a href="http://www.mpa.uni-stuttgart.de" target="_blank"><img src="/images/mpa_logo.png" height="50px" align="right"></a>
-      </ul>
-    </nav>
-    -->
+      </div>
+    </section>
     <div class="container">
 
       {{ content }}
