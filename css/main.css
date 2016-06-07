@@ -63,7 +63,22 @@ ul.sensors li {
 
 figcaption {
     display: block;
-    width: 70%;
+    width: 60%;
     font-size: 1.1em;
     padding: 0.4em;
+}
+
+div.pictures {
+    display:inline-block;
+}
+
+div.pictures img {
+    vertical-align:top;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  margin: 25px auto;
+  stroke: #006600;
 }

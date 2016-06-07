@@ -1,8 +1,8 @@
 ---
 layout: posts
-title: "Temperatur in ..."
+title: "Climadaten"
 date: 2016-06-05
-category: Temperatur
+category: Climadaten
 ---
 
 
@@ -10,21 +10,24 @@ category: Temperatur
 
 <p style="text-align: left;">
 
+<div class="pictures">
 <figure>
-<img src="../images/foto_vertikale_Verschiebung.JPG" alt="v_vert_Haus">
+<img src="../images/foto_vertikale_Verschiebung.JPG" alt="v_vert_Haus" width="300px">
 <figcaption>
-Foto eines Wegsensors zur Messung der vertikalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager am integralen Sto&szlig;<br><br>
+Foto eines Wegsensors zur Messung der vertikalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager am integralen Sto&szlig;
 </figcaption>
 </figure>
+</div>
 
 
+<div class="pictures">
 <figure>
-<img src="../images/foto_horizontale_Verschiebung_unten.JPG" alt="h_hor_unten">
+<img src="../images/foto_horizontale_Verschiebung_unten.JPG" alt="h_hor_unten" width="300px">
 <figcaption>
 Foto eines Wegsensors zur Messung der horizontalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager an der Traegerunterseite am integralen Sto&szlig;
 </figcaption>
 </figure>
-
+</div>
 
 </p>
 
