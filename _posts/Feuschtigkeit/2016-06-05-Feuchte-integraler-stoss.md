@@ -14,13 +14,21 @@ category: Holzfeuchte
 
 <p style="text-align: left;">
 
-<img src="../images/u_intStoss.JPG" width="350px" alt="u_intStoss"><br>
+<figure>
+<img src="../images/u_intStoss.JPG" width="350px" alt="u_intStoss">
+<figcaption>
+Foto ...
+</figcaption>
+</figure>
 
-Foto ...<br><br>
 
-<img src="../images/u_oben.JPG" width="500px" alt="u_oben"><br>
+<figure>
+<img src="../images/u_oben.JPG" width="500px" alt="u_oben">
+<figcaption>
+Foto ...
+</figcaption>
+</figure>
 
-Foto ...<br><br>
 
 </p>
 

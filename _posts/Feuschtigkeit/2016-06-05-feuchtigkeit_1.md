@@ -10,11 +10,18 @@ category: Holzfeuchte
 
 <p style="text-align: left;">
 
-<img src="../images/u_seitlich.JPG" width="500px" alt="u_sitlich"><br>
+<figure>
+<img src="../images/u_seitlich.JPG" width="500px" alt="u_sitlich">
+<figcaption>
+Foto ...
+</figcaption>
+</figure>
 
-Foto ...<br><br>
-
+<figure>
 <img src="../images/u_unten.JPG" width="500px" alt="u_unten"><br>
+<figcaption>
+Foto ...
+</figcaption>
+</figure>
 
-Foto ...<br><br>
 </p>

@@ -60,3 +60,10 @@ ul.sensors li {
     padding: 0.4em;
     list-style-type: square;
 }
+
+figcaption {
+    display: block;
+    width: 70%;
+    font-size: 1.1em;
+    padding: 0.4em;
+}
