@@ -25,16 +25,29 @@ Feuchtensoren am integralen Stoss (Abstand zum Tr&auml;gerende: 10cm) mit Messti
 <figure>
 <img src="../images/u_oben.JPG" width="500px" alt="u_oben">
 <figcaption>
-Feuchtensoren auf der Oberseite des Trägers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm.
+Feuchtensoren auf der Oberseite des Tr&auml;gers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm.
 </figcaption>
 </figure>
 
 <figure>
 <img src="../images/u_oben_montage.JPG" width="500px" alt="u_oben">
 <figcaption>
-Feuchtensoren auf der Oberseite des Trägers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm vor der Montage der unteren wasserf&uuml;hrenden Schicht.
+Feuchtensoren auf der Oberseite des Tr&auml;gers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm vor der Montage der unteren wasserf&uuml;hrenden Schicht.
 </figcaption>
 </figure>
 
+<figure>
+<img src="../images/linearerFeuchteSensor.JPG" width="500px" alt="u_linear, u_hirn">
+<figcaption>
+Linearer Feuchtensor sowie punktuelle Feuchtemessstelle auf der Stirnseite des Holztr&auml;gers mit Epoxidanstrich.
+</figcaption>
+</figure>
+
+<figure>
+<img src="../images/linearerFeuchteSensorDetail.JPG" width="500px" alt="u_oben">
+<figcaption>
+Linearer Feuchtensor sowie punktuelle Feuchtemessstelle auf der Stirnseite des Holztr&auml;gers (Detailansicht).
+</figcaption>
+</figure>
 </p>
 
