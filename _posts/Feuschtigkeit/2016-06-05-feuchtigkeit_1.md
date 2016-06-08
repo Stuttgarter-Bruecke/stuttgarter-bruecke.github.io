@@ -11,16 +11,16 @@ category: Holzfeuchte
 <p style="text-align: left;">
 
 <figure>
-<img src="../images/u_seitlich.JPG" width="500px" alt="u_sitlich">
+<img src="../images/u_seitlich.JPG" width="500px" alt="u_seitlich">
 <figcaption>
-Foto ...
+Holzfeuchtemessstellen an der dem Geb&auml;ude zugewandten Seite des Blocktr&auml;gers im Bereich der Tr&auml;germitte
 </figcaption>
 </figure>
 
 <figure>
 <img src="../images/u_unten.JPG" width="500px" alt="u_unten"><br>
 <figcaption>
-Foto ...
+Holzfeuchtemessstellen an der Unterseite des Blocktr&auml;gers im Bereich der Tr&auml;germitte
 </figcaption>
 </figure>
 
