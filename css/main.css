@@ -70,6 +70,7 @@ figcaption {
 
 div.pictures {
     display:inline-block;
+    padding: 0.4em;
 }
 
 div.pictures img {

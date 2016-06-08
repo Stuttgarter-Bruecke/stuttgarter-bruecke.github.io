@@ -10,7 +10,7 @@ category: Dehnungen
 </div>
 -->
 
-<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~AbteilungHolz/78.embed"></iframe>
+<iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~AbteilungHolz/80.embed"></iframe>
 
 <p style="text-align: left;">
 
