@@ -22,26 +22,58 @@ window.onload = function() {
   var zonebars = document.getElementById('path-bars');
   zonebars.setAttribute('opacity', '0.5');
 
+  // Sensor Holzfeuchte Stoß
   zone11.addEventListener("mouseover", mouseOver);
   zone11.addEventListener("mouseout", mouseOut);
+  zone11.addEventListener("click", function() {
+    window.top.location.href = "/blog/Feuchte-integraler-stoss";
+  }, false);
+
+  // Sensor tau integraler Stoß
   zone12.addEventListener("mouseover", mouseOver);
   zone12.addEventListener("mouseout", mouseOut);
+  zone12.addEventListener("click", function() {
+    window.top.location.href = "/#";
+  }, false);
+
+  // Sensor Dehnungen_M integraler Stoß
   zone13.addEventListener("mouseover", mouseOver);
   zone13.addEventListener("mouseout", mouseOut);
+  zone13.addEventListener("click", function() {
+    window.top.location.href = "/blog/Dehnungen-integraler-stoss";
+  }, false);
+
+  // Sensor Dehnungen integraler Stoß
   zone14.addEventListener("mouseover", mouseOver);
   zone14.addEventListener("mouseout", mouseOut);
+  zone14.addEventListener("click", function() {
+    window.top.location.href = "/blog/Dehnungen-integraler-stoss";
+  }, false);
+
+  // Sensor relative Feuchtigkeit Mitte
   zone21.addEventListener("mouseover", mouseOver);
   zone21.addEventListener("mouseout", mouseOut);
+  zone21.addEventListener("click", function() {
+    window.top.location.href = "/blog/feuchtigkeit_1";
+  }, false);
+
   zone22.addEventListener("mouseover", mouseOver);
   zone22.addEventListener("mouseout", mouseOut);
+
   zone23.addEventListener("mouseover", mouseOver);
   zone23.addEventListener("mouseout", mouseOut);
+
   zone31.addEventListener("mouseover", mouseOver);
   zone31.addEventListener("mouseout", mouseOut);
+
   zone32.addEventListener("mouseover", mouseOver);
   zone32.addEventListener("mouseout", mouseOut);
+
   zone33.addEventListener("mouseover", mouseOver);
   zone33.addEventListener("mouseout", mouseOut);
+
+  zonebars.addEventListener("mouseover", mouseOver);
+  zonebars.addEventListener("mouseout", mouseOut);
 
   function mouseOver() {
     this.setAttribute('opacity','0.9');
