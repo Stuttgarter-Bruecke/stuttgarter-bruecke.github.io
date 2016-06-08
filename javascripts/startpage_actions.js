@@ -50,30 +50,54 @@ window.onload = function() {
     window.top.location.href = "/blog/Dehnungen-integraler-stoss";
   }, false);
 
-  // Sensor relative Feuchtigkeit Mitte
+  // Sensor relative Feuchtigkeit oben
   zone21.addEventListener("mouseover", mouseOver);
   zone21.addEventListener("mouseout", mouseOut);
   zone21.addEventListener("click", function() {
+    window.top.location.href = "/blog/Temperatur_1";
+  }, false);
+
+  // Sensor Temperatur oben
+  zone22.addEventListener("mouseover", mouseOver);
+  zone22.addEventListener("mouseout", mouseOut);
+  zone22.addEventListener("click", function() {
+    window.top.location.href = "/blog/Temperatur_1";
+  }, false);
+
+  // Sensor Holzfeuchte oben
+  zone23.addEventListener("mouseover", mouseOver);
+  zone23.addEventListener("mouseout", mouseOut);
+  zone23.addEventListener("click", function() {
     window.top.location.href = "/blog/feuchtigkeit_1";
   }, false);
 
-  zone22.addEventListener("mouseover", mouseOver);
-  zone22.addEventListener("mouseout", mouseOut);
-
-  zone23.addEventListener("mouseover", mouseOver);
-  zone23.addEventListener("mouseout", mouseOut);
-
+  // Sensor relative Feuchtigkeit
   zone31.addEventListener("mouseover", mouseOver);
   zone31.addEventListener("mouseout", mouseOut);
+  zone31.addEventListener("click", function() {
+    window.top.location.href = "/blog/Temperatur_1";
+  }, false);
 
+  // Sensor Temperatur
   zone32.addEventListener("mouseover", mouseOver);
   zone32.addEventListener("mouseout", mouseOut);
+  zone32.addEventListener("click", function() {
+    window.top.location.href = "/blog/Temperatur_1";
+  }, false);
 
+  // Sensor Temperatur
   zone33.addEventListener("mouseover", mouseOver);
   zone33.addEventListener("mouseout", mouseOut);
+  zone33.addEventListener("click", function() {
+    window.top.location.href = "/blog/Temperatur_1";
+  }, false);
 
+  // Sensor Stangen
   zonebars.addEventListener("mouseover", mouseOver);
   zonebars.addEventListener("mouseout", mouseOut);
+  zonebars.addEventListener("click", function() {
+    window.top.location.href = "/blog/kraft-im-integraler-stoss";
+  }, false);
 
   function mouseOver() {
     this.setAttribute('opacity','0.9');
