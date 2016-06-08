@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Holzfeuchte am Logger in Feldmitte"
-date: 2016-06-05
+date: 2016-06-08
 category: Holzfeuchte
 ---
 

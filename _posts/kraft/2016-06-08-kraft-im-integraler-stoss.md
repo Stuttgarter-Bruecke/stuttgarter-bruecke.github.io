@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Kraft in den eingeklebten Stangen"
-date: 2016-06-05
+date: 2016-06-03
 category: Kraft
 ---
 <!-- Beispiel um die Grafiken direkt in der Seite zu generieren
