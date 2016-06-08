@@ -111,11 +111,56 @@ window.onload = function() {
   }, false);
 
   // U linear
-  ulinear.addEventListener("mouseover", mouseOver);
-  ulinear.addEventListener("mouseout", mouseOut);
-  ulinear.addEventListener("click", function() {
-    window.top.location.href = "/blog/Feuchte-integraler-stoss";
-  }, false);
+  var ulineartext = document.getElementById('ulineartext');
+  //ulinear.addEventListener("mouseover", mouseOverLine);
+  //ulinear.addEventListener("mouseout", mouseOutLine);
+  //ulinear.addEventListener("click", function() {
+  //  window.top.location.href = "/blog/Feuchte-integraler-stoss";
+  //}, false);
+
+  var pairs = [{
+    "zonea": ulinear,
+    "zoneb": ulineartext,
+    "url": "/blog/Feuchte-integraler-stoss",
+  },
+  ];
+  //
+  //loop
+  for (i = 0; i < pairs.length; i++) {
+    var obj1 = pairs[i].zonea;
+    var obj2 = pairs[i].zoneb;
+    var url = pairs[i].url
+    //
+    obj1.addEventListener("mouseover", mouseOverLineA);
+    obj1.addEventListener("mouseout", mouseOutLineA);
+    obj2.addEventListener("mouseover", mouseOverLineB);
+    obj2.addEventListener("mouseout", mouseOutLineB);
+    //
+    obj1.addEventListener("click", function() {
+      window.top.location.href = url;
+    }, false);
+    obj2.addEventListener("click", function() {
+      window.top.location.href = url;
+    }, false);
+    //window.alert(pairs[i].url);
+    //
+    function mouseOverLineA() {
+      this.style.opacity="0.7";
+      obj2.style.opacity="0.7";
+    }
+    function mouseOutLineA() {
+      this.style.opacity="0.1";
+      obj2.style.opacity="0.1";
+    }
+    function mouseOverLineB() {
+      this.style.opacity="0.7";
+      obj1.style.opacity="0.7";
+    }
+    function mouseOutLineB() {
+      this.style.opacity="0.1";
+      obj1.style.opacity="0.1";
+    }
+  }
 
   function mouseOver() {
     //this.setAttribute('opacity','0.5');
@@ -126,12 +171,5 @@ window.onload = function() {
     this.style.opacity="0.1";
   }
 
-  function mouseOverLine() {
-    this.style.opacity="0.5";
-    this.style.stroke="blue";
-  }
-  function mouseOutLine() {
-    this.style.opacity="1.0";
-  }
 }
 
