@@ -13,14 +13,14 @@ Die linearen TDS (Time Domain Spektoskropy) Sensoren decken die Gesamte Br&uuml;
 <p style="text-align: left;">
 
 <figure>
-<img src="../images/TDS.JPG" alt="TDS">
+<img src="../images/TDS.JPG" alt="TDS" width="300px">
 <figcaption>
 Foto eines TDS-Sensors
 </figcaption>
 </figure>
 
 <figure>
-<img src="../images/TDS_eingebaut.JPG" alt="TDS">
+<img src="../images/TDS_eingebaut.JPG" alt="TDS" width="300px">
 <figcaption>
 Foto eines TDS-Sensors im Eingebauten Zustand
 </figcaption>
