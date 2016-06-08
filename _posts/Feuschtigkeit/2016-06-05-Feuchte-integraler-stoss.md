@@ -17,7 +17,7 @@ category: Holzfeuchte
 <figure>
 <img src="../images/u_intStoss.JPG" width="350px" alt="u_intStoss">
 <figcaption>
-Foto ...
+Feuchtensoren am integralen Stoss (Abstand zum Tr&auml;gerende: 10cm) mit Messtiefen von 10cm, 20cm und 30cm.
 </figcaption>
 </figure>
 
@@ -25,10 +25,16 @@ Foto ...
 <figure>
 <img src="../images/u_oben.JPG" width="500px" alt="u_oben">
 <figcaption>
-Foto ...
+Feuchtensoren auf der Oberseite des Trägers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm.
 </figcaption>
 </figure>
 
+<figure>
+<img src="../images/u_oben_montage.JPG" width="500px" alt="u_oben">
+<figcaption>
+Feuchtensoren auf der Oberseite des Trägers (Abstand zum Tr&auml;gerende: 2,5m) mit Messtiefen von 1cm, 3cm und 6cm vor der Montage der unteren wasserf&uuml;hrenden Schicht.
+</figcaption>
+</figure>
 
 </p>
 
