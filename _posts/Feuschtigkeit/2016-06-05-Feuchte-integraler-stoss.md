@@ -50,7 +50,7 @@ Linearer Feuchtensor sowie punktuelle Feuchtemessstelle auf der Stirnseite des H
 </figure>
 
 <figure>
-<img src="../images/u_oben_montage.JPG" width="500px" alt="u_oben">
+<img src="../images/linearerFeuchtesensorDetail.JPG" width="500px" alt="u_oben">
 <figcaption>
 Linearer Feuchtensor sowie punktuelle Feuchtemessstelle auf der Stirnseite des Holztr&auml;gers (Detailansicht).
 </figcaption>
