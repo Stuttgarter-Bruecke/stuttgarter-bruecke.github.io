@@ -1,8 +1,8 @@
 ---
 layout: posts
-title: "Climadaten"
+title: "Klimadaten"
 date: 2016-06-05
-category: Climadaten
+category: Klimadaten
 ---
 
 
