@@ -12,9 +12,9 @@ category: Klimadaten
 
 <div class="pictures">
 <figure>
-<img src="../images/foto_vertikale_Verschiebung.JPG" alt="v_vert_Haus" width="300px">
+<img src="../images/klima_oben.JPG" alt="T_oben, rel_F_oben" width="300px">
 <figcaption>
-Foto eines Wegsensors zur Messung der vertikalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager am integralen Sto&szlig;
+Foto eines Klimasensors zur Messung der relativen Luftfeuchte der Lufttemperatur im mittleren Bereich des Tr&auml;gers
 </figcaption>
 </figure>
 </div>
@@ -22,9 +22,9 @@ Foto eines Wegsensors zur Messung der vertikalen Verschiebung zwischen Holztr&au
 
 <div class="pictures">
 <figure>
-<img src="../images/foto_horizontale_Verschiebung_unten.JPG" alt="h_hor_unten" width="300px">
+<img src="../images/u_unten.JPG" alt="T_unten, rel_F_unten" width="300px">
 <figcaption>
-Foto eines Wegsensors zur Messung der horizontalen Verschiebung zwischen Holztr&auml;ger und Beton-Auflager an der Traegerunterseite am integralen Sto&szlig;
+Foto eines Klimasensors zur Messung der relativen Luftfeuchte der Lufttemperatur im mittleren Bereich des Tr&auml;gers in der N&auml;he der Holzfeuchtemessstellen
 </figcaption>
 </figure>
 </div>
