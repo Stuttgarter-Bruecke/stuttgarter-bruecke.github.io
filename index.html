@@ -13,56 +13,14 @@ title: Monitoring der Stuttgarter Brücke
   <div class="blurb">
     <ul class="sensors">
 
-      <!--
-        {% for post in site.posts %}
-        <li><span>{{ post.category }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-        {% endfor %}
-      <svg id="circle" height="500" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-        <image x="0" y="0" height="500" width="900"  xlink:href="/images/grundriss_plain.svg" />
-      </svg>
-      <img src="images/grundriss_plain.svg" width="100%">
-
-        <script>
-        document.getElementsByTagName("svg")[0]
-        .addEventListener("click",function(evt){
-          alert(evt.target.getAttribute("zone1"))
-        },
-        false)
-        </script>
-      -->
-<script>
-  window.onload = function() {
-    var rect = document.getElementById('zone3-1');
-    rect.setAttribute('opacity', '0.1');
-    var rect2 = document.getElementById('zone3-2');
-    rect2.setAttribute('opacity', '0.1');
-    var rect3 = document.getElementById('zone3-3');
-    rect3.setAttribute('opacity', '0.1');
-    var rect = document.getElementById('zone2-1');
-    rect.setAttribute('opacity', '0.1');
-    var rect2 = document.getElementById('zone2-2');
-    rect2.setAttribute('opacity', '0.1');
-    var rect3 = document.getElementById('zone2-3');
-    rect3.setAttribute('opacity', '0.1');
-    var rect = document.getElementById('zone1-1');
-    rect.setAttribute('opacity', '0.1');
-    var rect2 = document.getElementById('zone1-2');
-    rect2.setAttribute('opacity', '0.1');
-    var rect3 = document.getElementById('zone1-3');
-    rect3.setAttribute('opacity', '0.1');
-    var rect4 = document.getElementById('zone1-4');
-    rect4.setAttribute('opacity', '0.1');
-    var rect4 = document.getElementById('path-bars');
-    rect4.setAttribute('opacity', '0.5');
-  }
-</script>
-      {% include grundriss.html %}
+        <script src='/javascripts/startpage_actions.js' type="text/javascript"></script>
+        {% include grundriss.html %}
 
 
-        {% for tag in site.categories %} 
+        {% for tag in site.categories %}
         <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
         <ul class="post-list">
-          {% assign pages_list = tag[1] %}  
+          {% assign pages_list = tag[1] %}
           {% for post in pages_list %}
           {% if post.title != null %}
           {% if group == null or group == post.group %}
