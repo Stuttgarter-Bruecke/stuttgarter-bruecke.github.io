@@ -89,7 +89,7 @@ window.onload = function() {
   zone33.addEventListener("mouseover", mouseOver);
   zone33.addEventListener("mouseout", mouseOut);
   zone33.addEventListener("click", function() {
-    window.top.location.href = "/blog/Temperatur_1";
+    window.top.location.href = "/blog/feuchtigkeit_1";
   }, false);
 
   // Sensor Stangen
