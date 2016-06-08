@@ -21,6 +21,8 @@ window.onload = function() {
   zone14.setAttribute('opacity', '0.1');
   var zonebars = document.getElementById('path-bars');
   zonebars.setAttribute('opacity', '0.5');
+  var zonedispl = document.getElementById('displ-1');
+  zonedispl.setAttribute('opacity', '0.1');
 
   // Sensor Holzfeuchte Stoß
   zone11.addEventListener("mouseover", mouseOver);
@@ -99,11 +101,35 @@ window.onload = function() {
     window.top.location.href = "/blog/kraft-im-integraler-stoss";
   }, false);
 
+  // U linear
+  var ulinear = document.getElementById('ulinear');
+  ulinear.addEventListener("mouseover", mouseOverLine);
+  ulinear.addEventListener("mouseout", mouseOutLine);
+  ulinear.addEventListener("click", function() {
+    window.top.location.href = "/blog/kraft-im-integraler-stoss";
+  }, false);
+
+  // Sensor Holzfeuchiebungen
+  zonedispl.addEventListener("mouseover", mouseOver);
+  zonedispl.addEventListener("mouseout", mouseOut);
+  zonedispl.addEventListener("click", function() {
+    window.top.location.href = "/blog/stuttgarterBruecke-site-launched";
+  }, false);
+
   function mouseOver() {
-    this.setAttribute('opacity','0.9');
+    this.setAttribute('opacity','0.5');
   }
   function mouseOut() {
     this.setAttribute('opacity','0.1');
+  }
+
+  function mouseOverLine() {
+    this.setAttribute('opacity','0.5');
+    this.setAttribute('stroke-width','105');
+  }
+  function mouseOutLine() {
+    this.setAttribute('opacity','1.0');
+    this.setAttribute('stroke-width','7');
   }
 }
 
