@@ -17,14 +17,14 @@ category: Dehnungen
 <figure>
 <img src="../images/e_M.JPG" width="350px" alt="e_M">
 <figcaption>
-Beschreibung...
+Dehnmessstreifen zur Aufnahme der Biegerandspannung im Holzquerschnitt mit Schutzabdeckung.
 </figcaption>
 </figure>
 
 <figure>
 <img src="../images/e_quer_unten.JPG" width="350px" alt="e_q_unten">
 <figcaption>
-Beschreibung...
+Dehnmessstreifen zur Aufnahme der Querdehnung im Holzquerschnitt mit Schutzabdeckung.
 </figcaption>
 </figure>
 
