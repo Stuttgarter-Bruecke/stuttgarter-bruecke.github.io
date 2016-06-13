@@ -1,15 +1,24 @@
-//
+// Defin svg drawing
+var svg = document.getElementById('defs4');
 // Define arras of sensors
 var sensorsAll = ["position1", "position2", "position3", "position4",
                   "position5", "position6", "position7", "position8"];
 
-var sensors1 = ["position1", "position2", "position3"];
-var sensors2 = ["position3", "position5", "position8"];
-var sensors3 = ["position2", "position7", "position8"];
+var d_1 = '/blog/Vershiebungen-am-integralen-stoss'
+var d_2 = '/blog/Vershiebungen-am-integralen-stoss'
+var t_1 = '/blog/Temperatur_1'
+var t_2 = '/blog/Temperatur_1'
 
-var groups = [{id:"group1", color:"#ff0000", sensors:sensors1},
-              {id:"group2", color:"#00ff00", sensors:sensors2},
-              {id:"group3", color:"#1144dd", sensors:sensors3}];
+var sensors1 = ["position1", "position2", "position3"];
+var links1 = [d_1, d_1, d_2]
+var sensors2 = ["position3", "position5", "position8"];
+var links2 = [d_1, d_1, d_2]
+var sensors3 = ["position2", "position7", "position8"];
+var links3 = [t_1, t_1, t_2]
+
+var groups = [{id:"group1", color:"#ff0000", sensors:sensors1, links:links1},
+              {id:"group2", color:"#00ff00", sensors:sensors2, links:links2},
+              {id:"group3", color:"#1144dd", sensors:sensors3, links:links3}];
 
 // active group
 var activeSensors = sensors1;
@@ -23,7 +32,7 @@ for (var i=0;i<groups.length;i++){
   // add events:
   group_i.on("mouseover", mouseOver);
   group_i.on("mouseout", mouseOut);
-  group_i.on("click", groups[i], mouseClick);
+  group_i.on("click", null, groups[i], mouseClick);
 }
 
 function mouseOver() {
@@ -39,13 +48,29 @@ function mouseOut() {
 }
 
 function mouseOver2() {
-  //$(this).fadeTo("fast",0.8);
-  $(this).css({strokeWidth:"2px", opacity:"0.8"});
+  $(this).fadeTo("fast",0.8);
+  $(this).css({strokeWidth:"2px"});
+  let description = document.createElementNS('httP://www.w3.org/2000/svg', 'text');
+  description.setAttribute('x', '10');
+  description.setAttribute('y', '20');
+  description.setAttribute('fill', '#000000');
+  description.textContent = 'Test';
+  svg.appendChild(description);
 }
 
 function mouseOut2() {
   //$(this).fadeTo("fast",1.0);
   $(this).css({strokeWidth:"1px", opacity:"1.0"});
+}
+
+function mouseClick2(event) {
+  let link = event.data;
+  //let clone = $(this).cloneNode(true);
+  $(this).velocity({opacity:0.5, r:30},{
+    complete: function() {
+      window.top.location.href = link;
+    }, loop: 1});
+  //window.top.location.href = link;
 }
 
 function mouseClick(event) {
@@ -71,14 +96,16 @@ function activateSensors(obj) {
     }
 
   }
-  // Activate the selected seonsors and change their colors accordingly
-  for (var i=0;i<=obj.sensors.length;i++){
+  //
+  for (var i=0;i<obj.sensors.length;i++){
     let sensor = $("#"+obj.sensors[i]);
     sensor.css({"fill":obj.color});
     sensor.fadeIn();
     // Add event listeners to each active sensor
     sensor.on("mouseover", mouseOver2);
     sensor.on("mouseout", mouseOut2);
+    let link = obj.links[i];
+    sensor.on("click", null, link, mouseClick2);
   }
   activeSensors = obj.sensors;
 }
