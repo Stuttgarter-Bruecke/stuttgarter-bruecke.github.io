@@ -48,7 +48,6 @@ function mouseOut() {
 }
 
 function mouseOver2() {
-<<<<<<< HEAD
   $(this).fadeTo("fast",0.8);
   $(this).css({strokeWidth:"2px"});
   let description = document.createElementNS('httP://www.w3.org/2000/svg', 'text');
@@ -57,10 +56,6 @@ function mouseOver2() {
   description.setAttribute('fill', '#000000');
   description.textContent = 'Test';
   svg.appendChild(description);
-=======
-  //$(this).fadeTo("fast",0.8);
-  $(this).css({strokeWidth:"2px", opacity:"0.8"});
->>>>>>> 6f636f7c87526e0e368ad654e488af7d27aac615
 }
 
 function mouseOut2() {
@@ -101,13 +96,9 @@ function activateSensors(obj) {
     }
 
   }
-<<<<<<< HEAD
   //
   for (var i=0;i<obj.sensors.length;i++){
-=======
   // Activate the selected seonsors and change their colors accordingly
-  for (var i=0;i<=obj.sensors.length;i++){
->>>>>>> 6f636f7c87526e0e368ad654e488af7d27aac615
     let sensor = $("#"+obj.sensors[i]);
     sensor.css({"fill":obj.color});
     sensor.fadeIn();
