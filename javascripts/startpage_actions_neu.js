@@ -98,6 +98,7 @@ function activateSensors(obj) {
   }
   //
   for (var i=0;i<obj.sensors.length;i++){
+  // Activate the selected seonsors and change their colors accordingly
     let sensor = $("#"+obj.sensors[i]);
     sensor.css({"fill":obj.color});
     sensor.fadeIn();
