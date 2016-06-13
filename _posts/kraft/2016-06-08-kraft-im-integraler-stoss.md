@@ -14,12 +14,6 @@ category: Kraft
 
 <p style="text-align: left;">
 
-<figure>
-<img src="../images/u_intStoss.JPG" width="350px" alt="u_intStoss">
-<figcaption>
-Beschreibung ...
-</figcaption>
-</figure>
 
 
 </p>
