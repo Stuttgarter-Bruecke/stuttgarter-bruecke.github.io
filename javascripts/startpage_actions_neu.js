@@ -39,13 +39,13 @@ function mouseOut() {
 }
 
 function mouseOver2() {
-  $(this).fadeTo("fast",0.8);
-  $(this).css({strokeWidth:"2px"});
+  //$(this).fadeTo("fast",0.8);
+  $(this).css({strokeWidth:"2px", opacity:"0.8"});
 }
 
 function mouseOut2() {
-  $(this).fadeTo("fast",1.0);
-  $(this).css({strokeWidth:"1px"});
+  //$(this).fadeTo("fast",1.0);
+  $(this).css({strokeWidth:"1px", opacity:"1.0"});
 }
 
 function mouseClick(event) {
@@ -59,7 +59,10 @@ function mouseClick(event) {
   activateSensors(obj);
 }
 
+// function to fade out the sensors that are not currently selected and fade in
+// the ones that should be displayed.
 function activateSensors(obj) {
+  // Deactivate the sensors that don't need to be displayed
   if ( typeof activeSensors !== 'undefined'){
     let currSensors = difference(activeSensors, obj.sensors);
     for (var i=0;i<=currSensors.length;i++){
@@ -68,7 +71,7 @@ function activateSensors(obj) {
     }
 
   }
-  //
+  // Activate the selected seonsors and change their colors accordingly
   for (var i=0;i<=obj.sensors.length;i++){
     let sensor = $("#"+obj.sensors[i]);
     sensor.css({"fill":obj.color});
