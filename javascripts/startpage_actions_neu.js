@@ -102,6 +102,7 @@ function activateSensors(obj) {
     let sensor = $("#"+obj.sensors[i]);
     sensor.css({"fill":obj.color});
     sensor.fadeIn();
+    sensor.velocity({r:8}, {duration:"fast", easing:"easeInSine", loop:1});
     // Add event listeners to each active sensor
     sensor.on("mouseover", mouseOver2);
     sensor.on("mouseout", mouseOut2);
