@@ -4,8 +4,8 @@ var svg = document.getElementById('defs4');
 var sensorsAll = ["position1", "position2", "position3", "position4",
                   "position5", "position6", "position7", "position8"];
 
-var d_1 = '/blog/Vershiebungen-am-integralen-stoss'
-var d_2 = '/blog/Vershiebungen-am-integralen-stoss'
+var d_1 = '/blog/Verschiebungen-am-integralen-stoss'
+var d_2 = '/blog/Verschiebungen-am-integralen-stoss'
 var t_1 = '/blog/Temperatur_1'
 var t_2 = '/blog/Temperatur_1'
 
