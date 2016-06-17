@@ -10,8 +10,7 @@ title: Monitoring der Stuttgarter Brücke
 </div><!-- /.blurb -->
   </p>
 
-  <div class="blurb">
-    <ul class="sensors">
+  <div class="hyphenate">
 
         {% include grundriss_neu.html %}
         <script src='/javascripts/startpage_actions_neu.js' type="text/javascript"></script>
@@ -20,20 +19,4 @@ title: Monitoring der Stuttgarter Brücke
         <script src='http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js' type="text/javascript"></script>
         -->
 
-        {% for tag in site.categories %}
-        <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
-        <ul class="post-list">
-          {% assign pages_list = tag[1] %}
-          {% for post in pages_list %}
-          {% if post.title != null %}
-          {% if group == null or group == post.group %}
-          <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-          {% assign pages_list = nil %}
-          {% assign group = nil %}
-        </ul>
-        {% endfor %}
-    </ul>
   </div><!-- /.blurb -->
